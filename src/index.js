@@ -4,6 +4,8 @@ import morgan from "morgan";
 import helmet from "helmet";
 import cors from "cors";
 import router from "./routes/router.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
 const corsOptions = {
