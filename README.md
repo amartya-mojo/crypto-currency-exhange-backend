@@ -15,30 +15,35 @@ Before running the application, make sure you have Node.js and npm installed on 
 
 2. **Change into the project directory:**
 
-```cd crypto-currency-exchange-backend
+```bash
+cd crypto-currency-exchange-backend
 
 ```
 
 3. **Install dependencies:**
 
-```npm install
+```bash
+npm install
 
 ```
 
 4. **Create a .env file in the root directory and configure your environment variables:**
 
-````BASE_PROD_API_URL=https://pro-api.coinmarketcap.com
+````bash
+BASE_PROD_API_URL=https://pro-api.coinmarketcap.com
 X_CMC_PRO_API_KEY=your-api-key```
 ````
 
 **Usage**
 
-```npm run dev
+```bash
+npm run dev
 
 ```
 
 **Scripts**
 
-    ```npm run dev: Start the server in development mode using nodemon.
+    ```bash
+    npm run dev: Start the server in development mode using nodemon.
     npm test: Run tests (replace with your testing command if applicable).
     npm start: Start the server in production mode.```
