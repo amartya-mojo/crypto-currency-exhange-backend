@@ -16,7 +16,7 @@ const corsOptions = {
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-//app.use(morgan("combined"));
+app.use(morgan("combined"));
 app.use(helmet());
 app.use(cors(corsOptions));
 
