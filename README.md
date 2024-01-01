@@ -1,6 +1,7 @@
 # Crypto Currency Exchange Backend
 
 This is the backend for a crypto currency exchange application built with Express and Node.js.
+Deployed backend https://curr-crypto-exchange.onrender.com/api
 
 ## Installation
 
